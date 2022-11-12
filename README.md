@@ -12,7 +12,8 @@ python3 main.py
 ```sh
 git clone
 cd charts
-soruce env/bin/activate
+python3 -m venv env --> "Si es necesario"
+soruce env/bin/activate 
 pi3 install -r requirements.txt
 python3 main.py
 ```
